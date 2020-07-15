@@ -1,0 +1,43 @@
+body {
+    background-color: #F7E6BF;
+}
+
+.goku {
+    margin: 0 auto;
+    width: 50vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+#lowerface {
+    margin: 0 auto;
+    width: 30vw;
+    height: 40vh;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 180px;
+    border-bottom-right-radius: 180px;
+}
+
+#higherface {
+    margin: 0 auto;
+    width: 30vw;
+    height: 40vh;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    
+    
+}
+
+#title {
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 30px;
+}
