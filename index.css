@@ -12,7 +12,7 @@ body {
 #lowerface {
     margin: 0 auto;
     width: 30vw;
-    height: 40vh;
+    height: 10rem;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
     border-left: 1px solid black;
@@ -24,8 +24,8 @@ body {
 
 #higherface {
     margin: 0 auto;
-    width: 30vw;
-    height: 40vh;
+    width: 25.55rem;
+    height: 10rem;
     border-top: 1px solid black;
     border-right: 1px solid black;
     border-left: 1px solid black;
@@ -40,4 +40,37 @@ body {
     width: 30vw;
     margin: 0 auto;
     margin-top: 30px;
+}
+
+.mouth {
+    position: absolute;
+    border-bottom: 3px solid black;
+    border-radius: 81% !important;
+    width: 10rem;
+    height: 5rem;
+    right: 37rem;
+    bottom: 25rem;
+}
+
+.nose {
+    position: absolute;
+    border-bottom: 3px solid black;
+    border-radius: 81% !important;
+    width: 3rem;
+    height: 5rem;
+    right: 40.5rem;
+    bottom: 27.5rem;
+    transform: rotate(150deg);
+}
+
+.eye1 {
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid black;
+}
+
+.eye2 {
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid black;
 }
